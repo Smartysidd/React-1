@@ -14,6 +14,7 @@ function decrement(){
     if(count==0){
     setcount(count);
     }
+    
     else{
         setCount(count-1);
     }
