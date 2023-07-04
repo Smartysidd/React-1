@@ -1,0 +1,14 @@
+function Mycomponent(){
+    const name='siddharth' //defining js as well//
+    function showmsg(){
+        'this is a msg from show msg fn'
+    }
+    return(
+        <div>
+        <h2>This is my first component</h2>
+        <h2>My name is {name} {showmsg()}</h2>  
+        
+        </div>
+    )//we are directly passing the name without any backtick or tmplates//
+}
+export default Mycomponent

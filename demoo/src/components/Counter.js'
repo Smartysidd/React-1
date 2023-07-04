@@ -1,0 +1,6 @@
+function Counter() {
+    return(
+        <div>
+        <h2>
+    )
+}

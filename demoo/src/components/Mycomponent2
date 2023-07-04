@@ -1,0 +1,7 @@
+function Mycomponent2(){
+    return(<div>
+        <h1>Hello this is component2</h1>
+    </div>
+);
+}
+export default Mycomponent2

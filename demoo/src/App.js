@@ -1,10 +1,16 @@
 
-import './App.css';
 
-function App() {
+// import Mycomponent from './components/Mycomponent';
+// import Userprofile from './components';
+import Counter from './components';
+
+ function App() {
   return (
-    <div className="App">
-     <h1>Hello from react</h1>
+    <div>
+      <Counter/>
+      {/* <Event/> */}
+     {/* <Userprofile name='siddharth' age={23} gender='male'/>
+     <Userprofile name='steeve' age={22} gender='male'/> */}
     </div>
   );
 }
