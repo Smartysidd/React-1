@@ -1,8 +1,9 @@
 function Mycomponent(){
-    return (
+    return(
         <div>
-            <h2>This is my first component</h2>
+            <h2>hello from react</h2>
         </div>
-    )
+ 
+ )
 }
 export default Mycomponent

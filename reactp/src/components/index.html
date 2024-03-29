@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vumbula React - Chapter 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Understanding the Fundamentals of State in JavaScript</h1>
+        <p>Designed by <em>Your Name</em></p>
+    </header>
+    
+    <div class="content">
+        <h2>Chapter 3 from the book; Vumbula React — Co-authored by John Kagga</h2>
+        
+        <section class="chapter">
+            <h3>In earlier chapters</h3>
+            <p>We’ve dealt mostly with functional React components that do not require state management. This chapter’s main focus is on state, its management and components that utilize it in React.</p>
+        </section>
+        
+        <section class="chapter">
+            <h3>What is State?</h3>
+            <p>State is a JavaScript object that stores a component’s dynamic data and determines the component’s behavior. Because state is dynamic, it enables a component to keep track of changing information in between renders and for it to be dynamic and interactive.</p>
+            <p>State is similar to props but unlike props, it is private to a component and is controlled solely by the said component. In the examples from previous chapters, the behavior of components has primarily depended on the props that are passed down to them. In those cases, the components that receive the props have no control over them because props are read-only.</p>
+        </section>
+        
+        <section class="chapter">
+            <h3>Adding State to a Class Component</h3>
+            <pre><code class="language-js">class Greeting extends React.Component {
+    constructor(props) {
+        super(props);
+        // Define your state object here
+        this.state = {
+            name: 'Jane Doe'
+        }
+    }
+    render() {
+        return <h1>Hello {this.state.name}</h1>;
+    }
+}</code></pre>
+        </section>
+        
+        <section class="chapter">
+            <h3>Investigating State using React Dev Tools</h3>
+            <p>The devtools are available for download on both Mozilla Firefox Add-ons and the Chrome Web Store. Follow the appropriate link to install the devtools depending on which browser you have installed on your computer.</p>
+            <p>Throughout the rest of this book, Chrome will be used as the browser of choice. In order to confirm successful installation of the devtools on Chrome, open the developer tools window using Cmd+Opt+I on a Mac or Ctrl+Alt+I on a Windows PC. You should now see a React tab.</p>
+        </section>
+    </div>
+</body>
+</html>
